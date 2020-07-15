@@ -2386,7 +2386,7 @@ toplev::run_self_tests ()
 int
 toplev::main (int argc, char **argv)
 {
-  /* Parsing and gimplification sometimes need quite large stack.
+  /* Parsing and simplification sometimes need quite large stack.
      Increase stack size limits if possible.  */
   stack_limit_increase (64 * 1024 * 1024);
 
